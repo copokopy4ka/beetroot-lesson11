@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="main">
+        <div class="container">
+            <div class="modal" style="background-image: linear-gradient(58deg,  rgba(48,35,174,.9) 0%,rgba(200,109,215,.9) 100%), url('src/img/bg-img.jpg');">
+                <ul class="modal-links">
+                    <li class="modal-links-item">
+                        <a href="#" class="modal-link" target="_blank">Sign in</a>
+                    </li>
+                    <li class="modal-links-item">
+                        <a href="#" class="modal-link" target="_blank">Join us</a>
+                    </li>
+                </ul>
+                <form class="modal-flex-row">
+                    <div class="input-holder">
+                        <label class="input-label" for="modal-username">Username</label>
+                        <input type="text" id="modal-username" class="modal-input">
+                    </div>
+                    <div class="input-holder">
+                        <label class="input-label" for="modal-password">Password</label>
+                        <input type="password" id="modal-password" class="modal-input">
+                    </div>
+                    <div class="input-holder">
+                        <input type="checkbox" id="modal-checkbox" class="modal-checkbox">
+                        <label for="modal-checkbox">Keep me signed in</label>
+                    </div>
+                    <button type="submit" class="btn">Sign in</button>
+                </form>
+                <ul class="help-modal-links">
+                    <li class="help-item">
+                        <a class="help-link" href="#" target="_blank">Forgot password</a>
+                    </li>
+                    <li class="help-item">
+                        <a class="help-link" href="#" target="_blank">Create an account</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
